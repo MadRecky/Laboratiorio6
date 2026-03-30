@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página 2 - DPS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/estilos.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Madrecky Rivals</a>
+        <button
+          title="Boton"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina1.html">Vanguard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link current-page" href="pagina2.html">DPS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina3.html">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="alert alert-info">
+        <h1 class="display-4">DPS</h1>
+        <p class="lead">
+          En que situaciones es ideal elegirlos.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="imagenes/MK.jpg"
+            class="img-fluid content-img rounded"
+            alt="Moon knight"
+          />
+          <h4>Moon Knight</h4>
+          <p>
+            Moon Knight destaca en escenarios abiertos donde puede mantener una distancia de seguridad mientras aplica un daño 
+            constante y preciso. Es especialmente útil para debilitar a los tanques desde lejos y utilizar sus proyectiles de 
+            rebote cuando los enemigos se encuentran agrupados, castigando cualquier error de posicionamiento con gran eficacia.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="imagenes/Magik.jpg"
+            class="img-fluid content-img rounded"
+            alt="Magik"
+          />
+          <h4>Magik</h4>
+          <p>
+            Magik es la opción perfecta para mapas con muchas coberturas donde se pueda jugar al flanqueo y al despiste. 
+            Su movilidad mágica a través de portales le permite aparecer en puntos ciegos para ejecutar ráfagas de ataques rápidos, 
+            siendo una amenaza letal que obliga al enemigo a estar mirando constantemente hacia atrás.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="imagenes/Wolverine.jpg"
+            class="img-fluid content-img rounded"
+            alt="Wolverine"
+          />
+          <h4>Wolverine</h4>
+          <p>
+           Wolverine debe utilizarse como una unidad de asalto constante contra equipos que carecen de movilidad suficiente 
+           para escapar de sus garras. Aprovechando su regeneración pasiva, es excelente para buscar duelos individuales y eliminar 
+           objetivos prioritarios, entrando y saliendo de la pelea para desgastar la moral y los recursos del oponente.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion mt-4" id="VanguardAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+            >
+              Informacion adicional sobre DPS
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#VanguardAccordion"
+          >
+            <div class="accordion-body">
+              <a href="https://marvelrivals.gg/duelist-meta-tier-list-competitive/" target="_blank" rel="noopener noreferrer">
+                Visita el sitio web para obtener más información sobre el meta de DPS en Marvel Rivals.
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="toast show mt-4"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="toast-header">
+          <strong class="me-auto">Notificación</strong>
+          <small>Ahora</small>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body">
+          ¡Has accedido a la página de DPS correctamente!
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

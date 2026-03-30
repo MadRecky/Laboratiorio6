@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página 1 - Vanguard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/estilos.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Madrecky Rivals</a>
+        <button
+          title="Boton"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link current-page" href="pagina1.html">Vanguard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina2.html">DPS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina3.html">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="alert alert-info">
+        <h1 class="display-4">Vanguard</h1>
+        <p class="lead">
+          En que situaciones es ideal elegirlos.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="imagenes/rogue.jpg"
+            class="img-fluid content-img rounded"
+            alt="Rogue"
+          />
+          <h4>Rogue</h4>
+          <p>
+            Rogue es la elección ideal cuando el equipo enemigo tiene habilidades específicas que quieres neutralizar o cuando necesitas un tanque 
+            con gran capacidad de respuesta inmediata. Su movilidad superior le permite entrar al núcleo de la pelea para absorber daño, 
+            pero su verdadero valor estratégico reside en su capacidad para "robar" facultades clave, lo que la convierte en un personaje 
+            impredecible que puede adaptarse a cualquier composición enemiga y dar la vuelta a un enfrentamiento cuerpo a cuerpo en cuestión de segundos.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="imagenes/groot.jpg"
+            class="img-fluid content-img rounded"
+            alt="Groot"
+          />
+          <h4>Groot</h4>
+          <p>
+            Groot es la elección ideal cuando tu equipo necesita una defensa sólida frente a proyectiles enemigos o cuando el mapa presenta 
+            pasillos estrechos que facilitan el bloqueo. Su valor estratégico reside en el control de zona mediante sus muros de madera, 
+            los cuales permiten dividir al equipo contrario o proteger a tus aliados más frágiles de ataques directos a distancia..
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="imagenes/brucebanner.jpg"
+            class="img-fluid content-img rounded"
+            alt="Bruce Banner"
+          />
+          <h4>Bruce Banner</h4>
+          <p>
+           Bruce Banner brilla en situaciones donde se requiere romper las formaciones defensivas del rival mediante pura agresión y caos. 
+           Tras transformarse en Hulk, su capacidad para saltar hacia la línea trasera enemiga le permite castigar a los personajes de apoyo y 
+           absorber grandes cantidades de daño, funcionando como un imán de atención que libera de presión a sus compañeros.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion mt-4" id="VanguardAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+            >
+              Informacion adicional sobre Vanguard
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#VanguardAccordion"
+          >
+            <div class="accordion-body">
+              <a href="https://marvelrivals.gg/vanguard-meta-tier-list-competitive/" target="_blank" rel="noopener noreferrer">
+                Visita el sitio web para obtener más información sobre el meta de Vanguard en Marvel Rivals.
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="toast show mt-4"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="toast-header">
+          <strong class="me-auto">Notificación</strong>
+          <small>Ahora</small>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body">
+          ¡Has accedido a la página de Vanguard correctamente!
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
